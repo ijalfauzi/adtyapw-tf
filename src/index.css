@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a[href^="tel"], a[href^="sms"] {
+    text-decoration: none;
+    color: inherit;
+    cursor: default;
+  }
+  
+  .no-underline {
+    text-decoration: none !important;
+  }
